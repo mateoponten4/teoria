@@ -1,0 +1,55 @@
+actividad 2
+investigar sobre big data, sus caracteristicas principales: volumen, velocidad, variedad, veracidad, valor
+
+Respuesta
+
+Investigación sobre Big Data
+Objetivo
+El objetivo de esta actividad es investigar sobre Big Data, sus características principales y comprender cómo estas impactan en su manejo y análisis.
+
+¿Qué es Big Data?
+Big Data hace referencia a conjuntos de datos que son tan grandes y complejos que las herramientas tradicionales de procesamiento de datos no son 
+suficientes para gestionarlos. Estos datos pueden provenir de diversas fuentes como redes sociales, sensores, transacciones financieras, 
+registros de actividad, entre otros.
+
+Características Principales de Big Data
+Las características principales de Big Data se conocen como las "3 Vs" y han sido ampliadas a cinco características clave. Estas son:
+
+1. Volumen
+El volumen se refiere a la cantidad masiva de datos generados y almacenados. Big Data implica la recopilación y almacenamiento de enormes cantidades de datos que,
+en algunos casos, alcanzan terabytes o petabytes.
+Ejemplo: Las empresas generan grandes volúmenes de datos a partir de transacciones de clientes, redes sociales, sensores IoT, entre otros.
+
+2. Velocidad
+La velocidad se refiere a la rapidez con que los datos son generados y procesados. En la era de Big Data, los datos se generan en tiempo real y 
+deben ser procesados con alta velocidad para obtener información útil en el momento adecuado.
+Ejemplo: En el mercado de valores, los algoritmos de high-frequency trading procesan datos en milisegundos para tomar decisiones de inversión.
+
+3. Variedad
+La variedad hace referencia a la diversidad de tipos de datos que existen. Los datos pueden ser estructurados, semiestructurados o no estructurados,
+y provienen de diversas fuentes, lo que hace que su integración y análisis sea más complejo.
+Ejemplo: Datos estructurados como bases de datos relacionales, datos semiestructurados como archivos JSON o XML, y datos no estructurados como imágenes, 
+videos y publicaciones en redes sociales.
+
+4. Veracidad
+La veracidad hace referencia a la confiabilidad y la calidad de los datos. En Big Data, los datos provienen de múltiples fuentes y pueden ser imprecisos o 
+inconsistentes, lo que representa un desafío para los analistas de datos.
+Ejemplo: En un sistema de análisis de datos de redes sociales, la veracidad puede verse afectada por la existencia de datos incorrectos o falsos, como cuentas bot.
+
+5. Valor
+El valor se refiere a la capacidad de extraer información valiosa y útil de los grandes volúmenes de datos generados. No todo dato generado tiene valor; 
+es necesario procesarlo y analizarlo adecuadamente para convertirlo en información útil que pueda ser aprovechada.
+Ejemplo: En el ámbito empresarial, Big Data puede ayudar a las empresas a identificar patrones de comportamiento de los consumidores y, con ello,
+mejorar sus productos, servicios y estrategias de marketing.
+
+¿Por qué es Importante Big Data?
+Big Data es fundamental para la toma de decisiones informadas y la mejora de procesos en diferentes sectores. Su análisis permite a las empresas,
+gobiernos y organizaciones obtener una visión más completa de los fenómenos que estudian.
+Ejemplos de Aplicación:
+Salud: Análisis de datos genómicos para la mejora del tratamiento de enfermedades.
+Marketing: Personalización de anuncios en función del comportamiento del cliente.
+Transportes: Optimización de rutas y tiempos de entrega en empresas logísticas.
+Conclusión
+Las características clave de Big Data, volumen, velocidad, variedad, veracidad y valor, son fundamentales para comprender cómo los datos se recopilan,
+procesan y analizan para generar información útil. Big Data permite a las organizaciones mejorar sus decisiones y servicios, pero también plantea retos
+importantes en términos de calidad de datos, almacenamiento y procesamiento.
