@@ -49,7 +49,82 @@ Ejemplos de Aplicación:
 Salud: Análisis de datos genómicos para la mejora del tratamiento de enfermedades.
 Marketing: Personalización de anuncios en función del comportamiento del cliente.
 Transportes: Optimización de rutas y tiempos de entrega en empresas logísticas.
+
+En termino generales, cuando decimos que manejamos grandes volumenes de datos y cuando no?   
+
+Cuando hablamos de "grandes volúmenes de datos", generalmente nos referimos a conjuntos de datos que son tan grandes y complejos que los métodos 
+tradicionales de manejo de datos, como bases de datos relacionales, pueden ser ineficaces o inadecuados para procesarlos y analizarlos. Sin embargo, 
+la distinción entre "grande" y "no tan grande" puede depender de varios factores, entre los que se incluyen:
+Tamaño de los datos:
+Grandes volúmenes de datos: Se consideran grandes cuando superan los límites que las herramientas tradicionales (como bases de datos SQL o sistemas de 
+almacenamiento convencionales) pueden manejar de manera eficiente. Esto podría ser desde terabytes (TB) hasta petabytes (PB) o incluso exabytes (EB). 
+Los ejemplos incluyen grandes sistemas de registro de datos en tiempo real, datos de sensores de IoT a gran escala, análisis de redes sociales, 
+y grandes cantidades de datos científicos o de investigación.
+No grandes volúmenes de datos: Son conjuntos más pequeños, que pueden ser fácilmente manejados en bases de datos tradicionales o incluso en hojas de cálculo. 
+Esto incluiría, por ejemplo, 
+datos de una pequeña empresa o de una encuesta con miles de registros.
+Velocidad de los datos:
+Grandes volúmenes de datos: No solo se refiere al tamaño, sino también a la velocidad con la que se generan y deben procesarse. 
+Por ejemplo, los datos generados en tiempo real (streaming) como los de transacciones bancarias, redes sociales, 
+sensores en tiempo real, etc., son ejemplos de grandes volúmenes de datos, ya que la velocidad de generación es muy alta.
+No grandes volúmenes de datos: Se refiere a datos que no se generan de manera tan rápida o a aquellos que pueden ser 
+procesados de manera más sencilla en un período más largo sin problemas de rendimiento.
+Variedad de los datos:
+Grandes volúmenes de datos: Pueden ser altamente variados en términos de formato (estructurados, semiestructurados, no estructurados), 
+lo que agrega una capa de complejidad a su manejo. Esto es común en big data, donde no solo hay una cantidad masiva de datos, 
+sino que también provienen de diversas fuentes (por ejemplo, registros de texto, imágenes, videos, datos de sensores, etc.).
+No grandes volúmenes de datos: Suele tratarse de datos más homogéneos o estructurados, como registros de ventas, que son más fáciles de gestionar.
+Capacidad de procesamiento:
+Grandes volúmenes de datos: Para manejar grandes volúmenes de datos se requiere infraestructura robusta, como clústeres de servidores, 
+almacenamiento distribuido (Hadoop, Amazon S3, etc.), y herramientas especializadas para su procesamiento, como Apache Spark, 
+bases de datos NoSQL, o soluciones en la nube.
+No grandes volúmenes de datos: Con datos de menor tamaño, se pueden usar soluciones más simples como bases de datos SQL tradicionales o 
+incluso almacenamiento en dispositivos locales sin necesidad de una infraestructura compleja.
+En resumen, no hay una cifra exacta que defina cuándo un conjunto de datos se considera "grande", pero en general se habla de grandes 
+volúmenes de datos cuando la cantidad, velocidad, variedad y complejidad de los datos hacen necesario el uso de herramientas y arquitecturas 
+especializadas para su almacenamiento, procesamiento y análisis. En el caso contrario, los datos son más fáciles de manejar con herramientas 
+tradicionales y sin tanta infraestructura.
+
 Conclusión
 Las características clave de Big Data, volumen, velocidad, variedad, veracidad y valor, son fundamentales para comprender cómo los datos se recopilan,
 procesan y analizan para generar información útil. Big Data permite a las organizaciones mejorar sus decisiones y servicios, pero también plantea retos
 importantes en términos de calidad de datos, almacenamiento y procesamiento.
+
+
+repasar librerias en python
+investigar sobre pip
+
+pip es el gestor de paquetes de Python, es decir, una herramienta que facilita la instalación y gestión de bibliotecas o paquetes 
+(también llamados "módulos") en Python. A través de pip, puedes descargar e instalar fácilmente librerías desde el Python Package Index (PyPI),
+que es un repositorio central donde se encuentran miles de librerías y paquetes desarrollados por la comunidad de Python.
+
+¿Por qué es importante pip?
+Facilidad de instalación: Instalar librerías con pip es muy sencillo y permite a los desarrolladores integrar fácilmente herramientas de terceros en sus proyectos.
+Manejo de dependencias: pip ayuda a gestionar las dependencias entre librerías, asegurando que se instalen las versiones correctas.
+Amplitud: Gracias a PyPI, pip da acceso a una vasta colección de paquetes que abarcan una variedad de áreas: desde ciencia de datos, 
+web development, hasta automatización y machine learning.
+En resumen, pip es una herramienta esencial en el ecosistema de Python que simplifica enormemente el proceso de añadir y administrar 
+librerías externas en tus proyectos.
+
+fijate si tenes pip instalado, si no lo tenes, instalalo
+
+que es el formato csv?
+
+El formato CSV (Comma-Separated Values, por sus siglas en inglés) es un formato de archivo utilizado para almacenar datos 
+tabulares en forma de texto. En un archivo CSV, los datos se organizan en filas y columnas, donde cada fila representa un registro 
+(una entrada de datos) y cada columna contiene un valor de un atributo o campo específico.
+
+Características del formato CSV:
+Separación por comas: Como su nombre indica, los valores de cada fila están separados por comas. Sin embargo, algunos archivos CSV también 
+pueden usar otros delimitadores como punto y coma (;) o tabuladores (\t), dependiendo de la configuración regional.
+
+Formato de texto plano: Un archivo CSV es un archivo de texto plano, lo que significa que puedes abrirlo y leerlo con cualquier editor de texto,
+como Notepad en Windows, TextEdit en macOS, o editores más avanzados como Visual Studio Code.
+
+No tiene cabeceras obligatorias: En un archivo CSV, puedes tener o no una fila de cabecera (header) que describa el nombre de cada columna. 
+Si está presente, generalmente la primera fila contiene los nombres de los campos.
+
+Sencillez: Los archivos CSV son muy fáciles de crear, leer y modificar. Esto los hace muy populares para importar y exportar datos entre 
+aplicaciones como bases de datos, hojas de cálculo (como Microsoft Excel o Google Sheets) y otros programas.
+
+
