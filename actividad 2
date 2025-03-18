@@ -129,3 +129,28 @@ aplicaciones como bases de datos, hojas de cálculo (como Microsoft Excel o Goog
 
 buscar info sobre pandas y data frame
 
+Pandas es una biblioteca de código abierto en Python que se utiliza para la manipulación y análisis de datos. 
+Proporciona estructuras de datos eficientes y fáciles de usar, como los DataFrames (tablas bidimensionales) y 
+Series (estructuras unidimensionales) que permiten trabajar con grandes volúmenes de datos de forma sencilla y rápida.
+
+Algunas de sus funcionalidades principales incluyen:
+
+Lectura y escritura de datos: Permite leer y escribir datos desde y hacia diversos formatos como CSV, Excel, SQL, JSON, entre otros.
+Filtrado y selección de datos: Permite seleccionar, filtrar y modificar datos de manera eficiente.
+Agrupación y agregación: Facilita la agrupación de datos para realizar operaciones como sumas, promedios, conteos, etc.
+Manejo de valores nulos: Proporciona herramientas para identificar, eliminar o reemplazar datos faltantes.
+Operaciones sobre columnas y filas: Permite realizar operaciones matemáticas o transformaciones sobre columnas o filas de los datos.
+Es una herramienta muy popular en el análisis de datos, la ciencia de datos y la ingeniería de datos debido a su simplicidad y poder.
+
+Un DataFrame es una estructura de datos bidimensional en Pandas que se utiliza para almacenar datos en forma de tabla, 
+similar a una hoja de cálculo o una tabla en una base de datos. Cada columna de un DataFrame puede tener un tipo de dato diferente 
+(números, cadenas de texto, fechas, etc.), y cada fila representa una observación o registro.
+
+Características clave de un DataFrame:
+
+Filas y columnas: Los datos están organizados en filas y columnas, donde las columnas tienen etiquetas (nombres de las variables) y las filas también pueden 
+tener índices.
+Acceso fácil: Permite acceder y modificar fácilmente los datos utilizando etiquetas de columnas o índices.
+Operaciones: Puedes realizar operaciones matemáticas, estadísticas y de transformación de datos de manera eficiente.
+En resumen, un DataFrame es la estructura principal para manejar datos en Pandas y facilita el análisis y manipulación de datos de manera intuitiva y poderosa.
+
