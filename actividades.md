@@ -1,1 +1,2 @@
-
+-mostrar las primeras 10 filas 
+-mostrar las ultimas 20 filas
