@@ -13,3 +13,8 @@ poblado = [40000, 70000, 60000, 80000, 30000]
 diccionario = {'provincias: ':provincia, 'poblacion:':poblado}
 df2 = pd.DataFrame(diccionario)
 print(df2)
+
+
+import pandas as pd
+df = pd.read_csv('StudentsPerformance.csv')
+print(df['gender'])
