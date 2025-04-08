@@ -1,0 +1,30 @@
+ejemplo de grafico:
+
+import matplotlib.pyplot as plt #importar libreria
+x = [1,2,3,4,5] #datos
+y = [14,3,9,21,44] #datos
+plt.plot(x,y) #crear grafico
+plt.xlabel('eje X') #etiueta
+plt.ylabel('eje Y') #etiueta
+plt.title('Grafico de Ejemplo: ') #nombre del grafico
+plt.show() #mostrar el grafico
+
+grafico redondo
+
+label = ['a', 'b', 'c', 'd']
+dato = [25,35,20,20]
+color = ['gold', 'lightcoral', 'lightskyblue', 'lightgreen']
+plt.pie(dato, labels=label, colors=color, autopct='%1.1f%%', startangle=140)
+plt.axis('equal')
+plt.show()
+
+grafico de dispercion
+import matplotlib.pyplot as plt #importar libreria
+x= [1,2,3,4,5,6,7,8,9,10]
+y= [2,5,8,11,14,17,20,23,26,29]
+plt.scatter(x,y,color='blue', marker='o')
+plt.title('Grafico de dispercion')
+plt.xlabel('eje x')
+plt.ylabel('eje y')
+plt.show()
+
